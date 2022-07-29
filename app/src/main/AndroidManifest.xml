@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.video_qa" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Video_QA" >
+        <activity
+            android:name=".splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".add_video_big_data"
+            android:exported="false" />
+        <activity
+            android:name=".big_data"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_app_dev"
+            android:exported="false" />
+        <activity
+            android:name=".app_dev"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_web_dev"
+            android:exported="false" />
+        <activity
+            android:name=".web_dev"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_devops"
+            android:exported="false" />
+        <activity
+            android:name=".devops"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_blockchain"
+            android:exported="false" />
+        <activity
+            android:name=".blockchain"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_data_science"
+            android:exported="false" />
+        <activity
+            android:name=".data_science"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_cp"
+            android:exported="false" />
+        <activity
+            android:name=".cp"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_python"
+            android:exported="false" />
+        <activity
+            android:name=".python"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_cpp"
+            android:exported="false" />
+        <activity
+            android:name=".c_plus_plus"
+            android:exported="false" />
+        <activity
+            android:name=".add_video_javascript"
+            android:exported="false" />
+        <activity
+            android:name=".JavaScript"
+            android:exported="false" />
+        <activity
+            android:name=".add_video"
+            android:exported="false" />
+        <activity
+            android:name=".java"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

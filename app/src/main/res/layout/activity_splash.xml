@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    android:layout_gravity="center"
+    tools:context=".splash"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/splash_photo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/splash"
+       />
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/bungee"
+        android:text="Video Q&amp;A"
+        android:textAlignment="center"
+        android:textColor="@color/lightorange"
+        android:textSize="45dp"
+         />
+
+    <TextView
+        android:id="@+id/splash_below_text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="-1dp"
+        android:text="Connecting Ideas"
+        android:textAlignment="center"
+        android:textColor="@color/sky_blue"
+        android:textSize="30dp"
+        android:fontFamily="@font/bungee"
+         />
+
+
+</LinearLayout>
